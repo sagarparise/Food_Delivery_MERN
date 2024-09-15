@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+html{
+  scroll-behavior: smooth;
+}
+.hero-img{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.card{
+  transition: all 0.3s ease;
+}
+input[name="my_tabs_1"]:checked {
+  background:#ff5861;
+  color: white;
+  font-size: 16px;
+ 
+}
+.tab-content{
+  margin-top: 10px;
+}
+.current{
+  border:3px solid #5895ff;
+  
+}
+th,td{
+
+  font-weight: 500;
+  font-size: 14px;
+}
+th{
+  font-size: 15px;
+  font-weight: 600;
+  color: #ff5861;
+}
+.active{
+  background:#ff5861 !important;
+  color: white;
+  font-size: 16px;
+}
+/* notify message */
+.notify{
+
+
+  top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  animation: notify 2s ease-in-out;
+}
+.show{
+  display: none;
+}
+
+@keyframes notify {
+  0% { 
+    left: -150px;
+
+  
+  }
+  100% { 
+    left: 10%;
+    transform: translateX(-10%);
+
+   }
+}
+
+/* src/styles.css */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .rs-filter{
+    flex-direction: column;
+
+  }
+  .logo{
+    font-size: 16px;
+  }
+}
