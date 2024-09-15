@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 function Navbar() {
   const navigate = useNavigate();
-   const url = 'http://localhost:5000';
+   const url = 'https://food-delivery-mern-kl64.onrender.com/';
   const {token, user} = useSelector((state)=> state.user)
   const {total} = useSelector((state)=> state.cart)
 

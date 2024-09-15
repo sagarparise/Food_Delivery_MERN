@@ -45,7 +45,7 @@ function LoginPage() {
 export default LoginPage;
 
 const SignUp = () => {
-  const url = 'http://localhost:5000';
+  const url = 'https://food-delivery-mern-kl64.onrender.com/';
  const dispatch =  useDispatch();
 
  const[inputVal, setInputVal] = useState({
@@ -146,7 +146,7 @@ const SignUp = () => {
 };
 
 const Login = ()=>{
-  const url = 'http://localhost:5000';
+  const url = 'https://food-delivery-mern-kl64.onrender.com/';
   const dispatch =  useDispatch();
 
 

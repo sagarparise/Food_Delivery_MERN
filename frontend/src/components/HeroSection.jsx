@@ -12,7 +12,7 @@ import useGetReviews from '../hooks/useGetReviews';
 import {motion} from 'framer-motion'
 import ImageContainer from './ImageContainer';
 function HeroSection({setFlag}) {
-  const url = 'http://localhost:5000';
+  const url = 'https://food-delivery-mern-kl64.onrender.com/';
   const dispatch = useDispatch()
 
     const { foodData} = useGetFood(`${url}/api/food/getAllFood`);

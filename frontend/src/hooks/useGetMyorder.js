@@ -5,7 +5,7 @@ import { setMyOrders } from '../Slices/cartSlice';
 function useGetMyorder() {
  const {token} = useSelector((state)=>state.user);
  const dispatch = useDispatch()
- const url = 'http://localhost:5000';
+ const url = 'https://food-delivery-mern-kl64.onrender.com/';
 
  useEffect(()=>{
 

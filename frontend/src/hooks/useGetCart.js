@@ -4,7 +4,7 @@ import { getCart } from '../Slices/cartSlice';
 
 
 function useGetCart(flag) {
-  const url = 'http://localhost:5000';  
+  const url = 'https://food-delivery-mern-kl64.onrender.com/';  
   const dispatch = useDispatch()
  const{token} = useSelector((state)=> state.user)
 

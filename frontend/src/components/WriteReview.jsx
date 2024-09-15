@@ -3,7 +3,7 @@ import dBoy from "../assets/frame-XAq.png";
 import {toast} from 'react-toastify';
 import {motion} from 'framer-motion'
 function WriteReview() {
-  const url = 'http://localhost:5000';
+  const url = 'https://food-delivery-mern-kl64.onrender.com/';
   const [data, setData] = useState({
     fullname: "",
    email: "",

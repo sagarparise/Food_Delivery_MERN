@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import {motion} from "framer-motion"
 
 function ReceipyCard({ item,index }) {
-  const url = "http://localhost:5000";
+  const url = "https://food-delivery-mern-kl64.onrender.com/";
   const navigate = useNavigate();
   const dispatch = useDispatch();
  const{token,user} = useSelector((state)=>state.user)

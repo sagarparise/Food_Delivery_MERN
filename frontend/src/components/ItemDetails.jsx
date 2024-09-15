@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import { setTotal } from "../Slices/cartSlice";
 
 function ItemDetails() {
-  const url = "http://localhost:5000";
+  const url = "https://food-delivery-mern-kl64.onrender.com/";
   const { id } = useParams();
   const dispatch = useDispatch();
 

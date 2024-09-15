@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { motion } from 'framer-motion';
 
 function Category({ category, handleCategory, index }) {
-  const url = "http://localhost:5000";
+  const url = "https://food-delivery-mern-kl64.onrender.com/";
   const { selectedCategory } = useSelector((state) => state.foods);
  
   useEffect(()=>{

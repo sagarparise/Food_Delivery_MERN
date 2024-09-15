@@ -7,7 +7,7 @@ function Verify() {
   const[searchParams, setSearchParams] = useSearchParams();
   const{token}=useSelector(state=> state.user)
   const navigate = useNavigate()
-  const url = 'http://localhost:5000'
+  const url = 'https://food-delivery-mern-kl64.onrender.com/'
   const success = searchParams.get('success')
   const orderId = searchParams.get('orderId')
 

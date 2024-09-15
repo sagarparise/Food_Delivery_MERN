@@ -4,7 +4,7 @@ import totalAmount from '../utils/cartTotalAmount';
 import { useNavigate } from 'react-router-dom';
 
 function PlacedOrder() {
-  const url = 'http://localhost:5000';
+  const url = 'https://food-delivery-mern-kl64.onrender.com/';
  const navigate = useNavigate()
   const{token, user} = useSelector((state)=> state.user)
   const{cart} = useSelector((state)=> state.cart)

@@ -5,7 +5,7 @@ import { getFoodReviews } from '../Slices/foodSlice';
 function useGetReviews() {
 const dispatch =  useDispatch();
 
-const url = "http://localhost:5000";
+const url = "https://food-delivery-mern-kl64.onrender.com/";
 
 useEffect(()=>{
 

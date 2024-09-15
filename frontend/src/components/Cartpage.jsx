@@ -90,7 +90,7 @@ export default Cartpage;
 
 const Row = ({food, setFlag, index}) => {
 
-  const url = 'http://localhost:5000'
+  const url = 'https://food-delivery-mern-kl64.onrender.com/'
   const{token} = useSelector((state)=> state.user)
   const{cart} = useSelector((state)=> state.cart)
 
